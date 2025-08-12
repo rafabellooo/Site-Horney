@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('DATES.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 40px;
+}
+
+header nav ul li a{
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: bold;;
+    
+}
+
+/* Garante que o header use posicionamento relativo para ancorar o nav */
+header {
+    position: relative;
+}
+
+/* Posiciona o menu no canto superior direito */
+.menu {
+    position: absolute;
+    font-size: 25px;
+    top: 120px;
+    right: 30px;
+    padding: 10px; /* espaçamento opcional */
+}
+
+/* Deixa os links alinhados lado a lado */
+.menu a {
+    text-decoration: none;
+    font-style: italic;
+    margin-left: 15px;
+    color: white; /* ou a cor que preferir */
+    font-weight: bold;
+}
+
+iframe{
+    
+    margin-left: 60px
+
+   
+}
+
+.video{
+    border: 5px solid #ffffff;;
+}
+
+.menu :hover{
+    color: darkgoldenrod;
+}
+
+
+
